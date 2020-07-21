@@ -12,11 +12,7 @@ appDiv.innerHTML += `<h3>Question: <br/><br/>Write a function that converts an o
 
 // Implement your logic here:
 function objectToArray(obj) {
-	const properties = Object.keys(obj)
-
-  return properties.map((key) => (
-    [key, obj[key]]
-  ))
+	return Object.entries(obj);
 }
 
 // objectToArray({
