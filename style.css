@@ -1,0 +1,16 @@
+span {
+  background-color: rgb(10, 88, 255);
+  color: #eee;
+  font-weight: bold;
+}
+
+h3, h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
